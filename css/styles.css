@@ -306,7 +306,7 @@ body.darkmode {
     align-items: center;
     height: 100vh;
     right: 0;
-    transform: translateX(-340px);
+    transform: translateX(-348px);
     transition: 0.9s;
   }
 
@@ -440,7 +440,7 @@ body.darkmode {
   .header_nav-menu {
     width: 80%;
     left: 0;
-    transform: translateX(-340px);
+    transform: translateX(-348px);
   }
 
   .logo_menu {
