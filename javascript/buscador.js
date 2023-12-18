@@ -1,7 +1,7 @@
 // const opciones = [
 //   { nombre: "kamatte", url: "Kamatte_Shinsotsu-chan_ga_Maikai_Sasotte.html" },
-//   { nombre: "yuujin-chara", url: "Yuujin-chara_no_Ore ga_Motemakuru_Wakenaidarou.html" },
-//   { nombre: "it semss", url: "itseems.html" },
+//   { nombre: "yuujin-chara", url: "Yuujin-chara_no_Ore_ga_Motemakuru_Wakenaidarou.html" },
+//   { nombre: "it semss", url: "it_seems.html" },
 //   { nombre: "Ordinary Days", url: "ordinary.html" },
 //   { nombre: "In the After School Library", url: "In_the_After.html" },
 //   { nombre: "Cursed, Pure Love", url: "cursed_pure.html" },
@@ -9,7 +9,7 @@
 //   { nombre: "The Love Comedy Where", url: "TheLove.html" },
 //   { nombre: "The Cool Tsukishiro-san", url: "TheCool.html" },
 //   { nombre: "The Story Of How I", url: "TheStory.html" },
-//   { nombre: "Classmate ga Tsukaima", url: "class.html" },
+//   { nombre: "Classmate ga Tsukaima", url: "Classmate" },
 //   { nombre: "What Happens If A Friend’s", url: "What_Happens.html" },
 //   { nombre: "Ryuu Kusari No Ori -Kokoro ", url: "ryuu.html" }
 // ];
