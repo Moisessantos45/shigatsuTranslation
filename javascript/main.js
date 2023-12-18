@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", function () {
   p.innerHTML = "";
   let fecha = new Date();
   let anio = fecha.getFullYear();
-  console.log(anio);
+  // console.log(anio);
   p.innerHTML = `Copyright © ${anio} Shigatsu Translation`;
 });
 let alto = window.scrollY
 console.log(alto)
 window.addEventListener("scroll", function () {
   let alto = window.scrollY
-  console.log(alto)
+  // console.log(alto)
   this.document.querySelector(".header_nav-menu").classList.toggle("borrar", window.scrollY > 522)
 })
 ///menu
