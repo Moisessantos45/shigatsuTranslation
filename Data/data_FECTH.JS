@@ -1,7 +1,7 @@
 const btn_next = document.querySelector(".next");
 const btn_previuos = document.querySelector(".previuos");
 const contentText = document.querySelector(".texto_capitulo");
-const home = document.querySelector(".home");
+const home = document.querySelector(".home__url");
 const links = [
   "it_seems",
   "Classmate",
@@ -10,6 +10,7 @@ const links = [
   "My_Parent",
   "TheStory",
   "yuujin",
+  "Kamatte_Shinsotsu-chan_ga_Maikai_Sasotte"
 ];
 
 const has = window.location.hash.split("#")[1].split("_").slice(0, 2).join("_");
@@ -87,7 +88,7 @@ const formatearTextoConImagenes = (texto) => {
 const insertarUrl = () => {
   const titleLink = has.replace(/_/g, " ").toLowerCase();
   const hashurl = buscar(titleLink).join("");
-  console.log(hashurl, titleLink, has);
+  console.log(hashurl, titleLink);
   home.href = `/${hashurl}.html`;
 };
 
@@ -159,6 +160,7 @@ window.onload = () => cargar(indice);
 btn_next.addEventListener("click", () => {
   indice++;
   cargar(indice);
+  cont_archivo();
 });
 
 btn_previuos.addEventListener("click", () => {
